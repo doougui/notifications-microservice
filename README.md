@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to ignite-notifications 👋</h1>
+<h1 align="center">Welcome to notifications-microservice 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-0.0.1-blue.svg?cacheSeconds=2592000" />
   <a href="https://twitter.com/oDougui" target="_blank">
