@@ -7,6 +7,10 @@ export class KafkaConsumerService
   implements OnModuleDestroy
 {
   constructor() {
+    if (!process.env.KAFKA_USERNAME || !process.env.KAFKA_PASSWORD) {
+      throw new Error('Kafka data not provided.');
+    }
+
     super({
       client: {
         clientId: 'notificaitons',
